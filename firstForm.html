@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <hr>
+        <h3><mark>Fill the Form:</mark></h3>
+        <hr>
+        <label>Enter form &nbsp;&nbsp&nbsp&nbsp&nbsp:<sup>*</sup></label>
+        <input type="text" name="n" placeholder="Enter full name" required>
+        <br><br>
+        <label>Enter password:<sup>*</sup></label>
+        <input type="password" name="p" placeholder="Enter password" required>
+        <br><br>
+        <label>Enter Age&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="number" min="1" max="80" name="q" placeholder="Age" required>
+        <br><br>
+        <label>Enter Gmail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<sup>*</sup></label>
+        <input type="email" name="r" placeholder="Enter Email" required>
+        <br><br>
+        <label>
+            <input type="radio" name="gender" value="m" id="male1"><label for="male1">Male</label>
+            <input type="radio" name="gender" value="f" id="female1"><label for="female1">Female</label>
+            <input type="radio" name="gender" value="o" id="Other"><label for="Other">Other</label><br><br>
+
+            <label>Languages: </label>
+            <input type="checkbox" name="lang" value="Marathi" id="M1"><label for="M1">Marathi</label>
+            <input type="checkbox" name="lang" value="English" id="E1"><label for="E1">English</label>
+            <input type="checkbox" name="lang" value="Hindi" id="H1"><label for="H1">Hindi</label>
+            <input type="checkbox" name="lang" value="Tamil" id="T1"><label for="T1">Tamil</label><br><br>
+
+            <label>Time: </label> <input type="time"><br><br>
+
+            <label>Date: </label> <input type="date"><br><br>
+
+            <label>0</label><input type="range"><label>100</label><br><br>
+
+            <label>Stream: </label>
+            <select>
+                <option>Btech</option>
+                <option>BE</option>
+                <option>MBA</option>
+                <option>MCA</option>
+                <option>MSC</option>
+            </select>
+            <br><br>
+            <labe>Comment Box</labe>
+            <br>
+            <textarea rows="10" cols="20"></textarea>
+            <br>
+            <input type="file"><br><br>
+            <label>Emojis:</label>
+            <h1><big>&#129321; &#129320;</big></h1>
+        </label>
+        <input type="reset"><input type="submit"> 
+        <hr>
+    </form>
+
+
+
+    <h3>Tages used for forms:</h3>
+    <pre> <big>
+        < form> 
+        < label> content < /label>
+        < input type=" " name=" " min=" " max=" "placeholder=" " required>
+        < /form>
+    </big>
+    </pre>
+</body>
+</html>
